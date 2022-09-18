@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Please Contact Us</h1>
+  <form action="https://formspree.io/f/mrgdenvq" method="POST" class="forms">
+    <label>Your email: <input type="email" name="email"></label><br>
+    <label>Your message: <textarea name="message"></textarea></label><br>
+    <!-- your other form fields go here -->
+      <!-- checkboxes -->
+        <div class="selectors">
+          <h3>Select all the foods you like</h3>
+          <input type="checkbox" id="option1" name="option1" value="Mexican">
+          <label for="option1">Mexican (Burritos, tacos, sopas, etc)</label><br>
+          <input type="checkbox" id="option2" name="option2" value="Chinese">
+          <label for="option2">Chinese (Chow mein, dumplings, potsickers)</label><br>
+          <input type="checkbox" id="option3" name="option3" value="Traditional">
+          <label for="option3">Traditional (Pizza, burgers, wings, more pizza)</label><br>
+        </div>
+      <!-- radio buttons -->
+      <h3>Which is your favorite dish?</h3>
+      <input type="radio" id="optiona" name="food" value="Burrito">
+      <label for="optiona">Burrito</label><br>
+      <input type="radio" id="optionb" name="food" value="Chow Mein">
+      <label for="optionb">Chow Mein</label><br>
+      <input type="radio" id="optionc" name="food" value="Pizza">
+      <label for="optionc">Pizza</label><br>
+      <input type="radio" id="optiond" name="food" value="Other">
+      <label for="optiond">Other</label><br><br>
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
