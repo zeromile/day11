@@ -1,5 +1,7 @@
 # day11 #
 
+"Day 11" (two days, actually) was dedicated to creating web forms in HTML and using Formspree.io process the submitted data, sending it to a designated email address.
+
 ### Daily Challenge: ###
 1. Sign in to your GitHub account
 2. Click the green `New` button top create a repo

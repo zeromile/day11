@@ -12,3 +12,11 @@ button {
     color: #fff;
     border-radius: 16px;
 }
+
+label {
+    vertical-align: top;
+}
+
+input[type="email"]{
+    margin-bottom:20px;
+}
