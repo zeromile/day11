@@ -1,9 +1,13 @@
-# day11 #
+# Day 11 #
 
-"Day 11" (two days, actually) was dedicated to creating web forms in HTML and using Formspree.io process the submitted data, sending it to a designated email address.
+"Day 11" (two days, actually) was dedicated to creating web forms in HTML and using Formspree to process the submitted data, sending it to a designated email address.
 
-### Daily Challenge: ###
-1. Sign in to your GitHub account
+Account creation on [Formspree](https://formspree.io) is free and you can receive and email up to 50 submissions - plenty for a low traffic web site.
+
+Once you have an account on Formspree find the "forms" link and copy and paste their demo code. This will give you both your unique form id for the API and also a few started form elements. This is what we did, then we added and customized the layout using CSS.
+
+### Set up your day11 folder using Git/GitHub ###
+1. Sign in to your [GitHub](https://github.com) account
 2. Click the green `New` button top create a repo
     - Choose the owner (you) from the drop-down and name the repo `day11`
     - Make sure you check the box next to "Add a README.md file"
@@ -26,7 +30,7 @@
             - Create a `fonts` folder
 8. Open the `day11/index.html` file and create an HTML template with `!` + `TAB`
 9. `<link>` Both the `styles.css` and `nav.css` files (remember that they are in the `css` folder)
-10. Back in Bash, inside the `Desktop/ceo-web-dev/day11` folder, do the git "add, commit, and push":
+10. Back in the Bash terminal, inside the `Desktop/ceo-web-dev/day11` folder, do the git "add, commit, and push":
     - `git add .` to add all the new files and folders to the staging area (remember the space between 'add' and the '.')
     - `git commit -m "new files"` to commit the staged files to the local repo
     - `git push origin main` to push the local repo to GitHub
