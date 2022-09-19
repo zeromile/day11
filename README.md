@@ -4,7 +4,7 @@
 
 Account creation on [Formspree](https://formspree.io) is free and you can receive and email up to 50 submissions - plenty for a low traffic web site.
 
-Once you have an account on Formspree find the "forms" link and copy and paste their demo code. This will give you both your unique form id for the API and also a few started form elements. This is what we did, then we added and customized the layout using CSS.
+Once you have an account on Formspree find the "forms" [link](https://formspree.io/forms/mrgdenvq/submissions). Once in the forms list click the red dot with a white plus in order add a new form. Name it and then click the "Integration" tab and find and copy and paste their demo code. This will provide you with both a unique form id for the API and also a few started form elements. This is what we did, then we added and customized the layout using CSS.
 
 ### Set up your day11 folder using Git/GitHub ###
 1. Sign in to your [GitHub](https://github.com) account
