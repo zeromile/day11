@@ -17,6 +17,10 @@ label {
     vertical-align: top;
 }
 
+/*  this is a way to specify CSS for a specific type
+    of input. We could have just as easily created a 
+    class and assigned that class to each "email" type
+    input. Doing it 
 input[type="email"]{
     margin-bottom:20px;
 }
